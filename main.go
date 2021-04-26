@@ -31,7 +31,7 @@ func main() {
 	}
 
 	if err == "" {
-		fmt.Println(fmt.Sprintf("%v %v %v = %v", a, oper, b, res))
+		fmt.Printf("%v %v %v = %v", a, oper, b, res)
 	} else {
 		fmt.Println(err)
 	}
