@@ -7,12 +7,12 @@ func Sum(a, b float64) (res float64) {
 	return
 }
 
-func Raznost(a, b float64) (res float64) {
+func Raznost(a, b, c float64) (res float64) {
 	res = a - b
 	return
 }
 
-func Proizvedenie(a, b, c float64) (res float64) {
+func Proizvedenie(a, b float64) (res float64) {
 	res = a * b
 	return
 }

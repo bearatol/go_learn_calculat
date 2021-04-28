@@ -19,9 +19,9 @@ func main() {
 	case "+":
 		res = operations.Sum(a, b)
 	case "-":
-		res = operations.Raznost(a, b)
+		res = operations.Raznost(a, b, b)
 	case "*":
-		res = operations.Proizvedenie(a, b, a)
+		res = operations.Proizvedenie(a, b)
 	case "/":
 		res = operations.Delenie(a, b)
 	case "%":
