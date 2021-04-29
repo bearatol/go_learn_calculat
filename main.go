@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/bearatol/go_learn_calculat/operations"
+
 )
 
 func main() {
@@ -35,5 +36,7 @@ func main() {
 	} else {
 		fmt.Println(err)
 	}
+
+	fmt.Println("111")
 
 }
