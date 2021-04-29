@@ -1,5 +1,5 @@
 # go_learn_calculat
 <br>
 <p>
-console program that calculate two values on golang
+A console program that calculates two values on the golang.
 </p>
